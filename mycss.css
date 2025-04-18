@@ -1,0 +1,38 @@
+html,body{
+    color: darkseagreen;
+    height:100%;
+    font-family: "Righteous", sans-serif;
+  }
+
+  h1 > a {
+    color: darkseagreen;
+    text-decoration: none;
+  }
+
+  li > a {
+    color: darkseagreen;
+    text-decoration: none;
+  }
+
+ 
+
+  aside#left{
+    float:left; 
+    width:15%; 
+    height:70%;
+  }
+  section{
+    float:left;
+    width:60%;
+    height:70%;
+  }
+  aside#right{
+    float:right;
+    width:22%;
+    height:70%;
+
+  }
+  footer{
+    clear:both;
+  }
+
