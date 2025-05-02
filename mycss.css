@@ -14,7 +14,13 @@ html,body{
     text-decoration: none;
   }
 
- 
+  ul.a li {
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding: 0px 10px;
+    
+  }
 
   aside#left{
     float:left; 
