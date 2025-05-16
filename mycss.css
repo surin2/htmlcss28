@@ -8,6 +8,9 @@ html,body{
     color: darkseagreen;
     text-decoration: none;
   }
+  h4{
+    text-align: center;
+  }
 
   li > a {
     color: darkseagreen;
@@ -19,8 +22,28 @@ html,body{
     text-align: center;
     display: inline;
     padding: 0px 10px;
+  }
+  ul.c li{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding: 0px 10px;
     
   }
+  
+  ul.b li{
+    list-style: none;
+    text-align: left;
+    padding: 0px 30px;
+  }
+  ul{
+    list-style: none;
+    text-align: center;
+    border-top: 1px solid darkseagreen;
+    border-bottom: 1px solid darkseagreen;
+    padding: 10px 0;
+  }
+  ul.a li:hover{text-decoration: underline;}
 
   aside#left{
     float:left; 
@@ -41,4 +64,6 @@ html,body{
   footer{
     clear:both;
   }
+
+  
 
