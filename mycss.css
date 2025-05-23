@@ -64,6 +64,24 @@ html,body{
   footer{
     clear:both;
   }
+  .show{
+    width: 60%;
+    height: 20%;
+    background-color: rgba(236, 230, 230, 0.5);
+    color: black;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    text-align: center;
+    padding: 20px 0;
+    animation: 6s showText infinite;
+  }
+  @keyframes showText {
+    0% {opacity: 0;}
+    30% {opacity: 1;}
+    60% {opacity: 1;}
+    100% {opacity: 0;}
+  }
 
   
 
